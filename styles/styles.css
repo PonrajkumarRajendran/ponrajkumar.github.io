@@ -179,6 +179,11 @@ section {
   pointer-events: none;
 }
 
+.controls .control:hover {
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
 .theme-btn {
   top: 5%;
   right: 4%;
@@ -389,7 +394,7 @@ section {
 }
 
 .about-container .left-about h4 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -1041,6 +1046,9 @@ section {
   .about-container .left-about p {
     padding-left: 0;
   }
+  .about-container .left-about h4 {
+    font-size: 1.5rem;
+  }
   .timeline {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -1081,6 +1089,12 @@ section {
   }
   .controls .control {
     margin: .75rem 1rem;
+  }
+  .controls .control:hover {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
   }
   .main-title h2 {
     font-size: 1.5rem;

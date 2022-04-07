@@ -44,6 +44,9 @@
             p{
                 padding-left: 0;
             }
+            h4{
+                font-size: 1.5rem;
+            }
         }
     }
 
@@ -85,6 +88,10 @@
         background-color: var(--color-grey-5);
         .control{
             margin: .75rem 1rem;
+            &:hover{
+                transform: translateX(0);
+                transform: translateY(-5px);
+            }
         }
     }
     .main-title{
