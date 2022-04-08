@@ -998,7 +998,7 @@ section {
   font-size: 4rem;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1080px) {
   header {
     padding: 0 !important;
   }
@@ -1116,7 +1116,7 @@ section {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   header {
     padding: 0 !important;
   }
